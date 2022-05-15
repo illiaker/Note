@@ -11,13 +11,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-//   externals: {
-//     // global app config object
-//     config: JSON.stringify({
-//         apiUrl: 'http://localhost:44329'
-//     })
-//   }
-// ,
   define: {    
       apiUrl: JSON.stringify('https://localhost:44329')    
   }
